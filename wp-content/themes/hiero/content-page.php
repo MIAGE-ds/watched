@@ -14,8 +14,8 @@
 	<?php if ( (has_post_thumbnail()) && ( get_theme_mod( 'athemes_page_img' )) ) : ?>
 		<div class="single-thumbnail">
 			<?php the_post_thumbnail(); ?>
-		</div>	
-	<?php endif; ?>		
+		</div>
+	<?php endif; ?>
 
 	<div class="clearfix entry-content">
 		<?php the_content(); ?>
